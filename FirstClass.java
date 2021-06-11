@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson1;
+package ru.geekbrains.lesson1.FirstHW.git;
 
 public class FirstClass {
     public static void main(String[] args) {
