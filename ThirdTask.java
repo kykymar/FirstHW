@@ -11,7 +11,10 @@ public class ThirdTask {
         fillArray();
         changeArray();
         fillDiagonal();
-        System.out.print("Results " + returnArray(4,257));
+        int[] test = returnArray(4,257);
+        for (int i = 0; i < test.length; i++) {
+            System.out.print(test[i] + " ");
+        };
     }
 
     public static void invertArray() {
