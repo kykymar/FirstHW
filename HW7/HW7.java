@@ -8,12 +8,12 @@ public class HW7 extends Object{
     public static void main(String[] args) {
 
         int[] value = {0,0,0,0,0,0};
-        System.out.println(value.toString() + " Nina");
+        System.out.println(value.toString() + " HW7");
 
         for (int i = 0; i < value.length; i++) {
             System.out.print(value[i]);
         }
-        System.out.print(" Nina");
+        System.out.print(" HW7");
 
 
         String testString = "ExampleText";
@@ -21,7 +21,7 @@ public class HW7 extends Object{
 
         long startTime = System.nanoTime();
 
-        for (int i = 0; i < 50000; i++) {
+        for (int i = 0; i < 100000; i++) {
             testString += i;
         }
 
@@ -31,7 +31,7 @@ public class HW7 extends Object{
 
         startTime = System.nanoTime();
 
-        for (int i = 0; i < 50000; i++) {
+        for (int i = 0; i < 100000; i++) {
             testStringBuilder.append(i);
         }
         deltaTime = System.nanoTime() - startTime;
